@@ -1,6 +1,6 @@
 # Payrank API
 
-This is a REST Api, using express and Cloud MongoDB to store data.
+This is a REST API, using express and Cloud MongoDB to store data.
 
 API Functions:
 
