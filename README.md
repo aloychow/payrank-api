@@ -6,9 +6,11 @@ API Functions:
 
 ### POST:
 1) Register: Takes in username, a unique email, password, and an optional images.
+
 route: localhost:3001/api/auth/register
 
 3) Login: Takes in email and password to check
+
 localhost:3001/api/auth/login
 
 ## Available Scripts
