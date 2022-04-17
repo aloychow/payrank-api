@@ -2,9 +2,9 @@
 
 This is a REST API, using express and Cloud MongoDB to store data.
 
-API Functions:
+## API Functions
 
-## POST:
+## POST
 ### 1) Register: Takes in username, a unique email, password, and an optional images.
 
 Route: localhost:3001/api/auth/register
