@@ -9,7 +9,7 @@ API Functions:
 
 Route: localhost:3001/api/auth/register
 
-### 3) Login: Takes in email and password to check
+### 2) Login: Takes in email and password to check
 
 Route: localhost:3001/api/auth/login
 
