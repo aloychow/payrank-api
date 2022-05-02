@@ -1,12 +1,25 @@
-# Getting Started with Create React App
+# Payrank API
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This is a REST API, using express and Cloud MongoDB to store data.
+
+## API Requests
+
+## POST
+### 1) Register: Takes in username, a unique email, password, and an optional image.
+
+Route: localhost:3001/api/auth/register
+
+### 2) Login: Takes in email and password to check
+
+Route: localhost:3001/api/auth/login
 
 ## Available Scripts
 
 In the project directory, you can run:
 
 ### `npm start`
+
+This uses Nodemon to listen for updates dynamically.
 
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
