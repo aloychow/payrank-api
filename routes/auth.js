@@ -21,6 +21,7 @@ router.post('/register', async(request, response) => {
     }
 });
 
+// Login
 router.post('/login', async (request, response) => {
     try {
         const user = await User.findOne({username: request.body.username});
