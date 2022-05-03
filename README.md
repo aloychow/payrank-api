@@ -36,6 +36,51 @@ Route: localhost:3001/api/uses/:id
 
 Route: localhost:3001/api/users/:id
 
+## Posts
+
+### Post
+
+#### 1) Create new post: Takes in post model.
+
+Route: localhost:3001/api/posts
+
+### Put
+
+#### 1) Update post: Takes in post id and new post model.
+
+Route: localhost:3001/api/posts/:id
+
+### Delete
+
+#### 1) Delete post: Takes in post id.
+
+Route: localhost:3001/api/posts/:id
+
+### Get
+
+#### 1) Get post: Takes in post id.
+
+Route: localhost:3001/api/posts/:id
+
+#### 2) Get all post
+
+Route: localhost:3001/api/posts
+
+## Categories
+
+### Post
+
+#### 1) Create new category: Takes in category.
+
+Route: localhost:3001/api/categories
+
+### Get
+
+#### 1) Get categories
+
+Route: localhost:3001/api/categories
+
+
 ## Available Scripts
 
 In the project directory, you can run:
