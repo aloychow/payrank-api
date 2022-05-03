@@ -4,14 +4,37 @@ This is a REST API, using express and Cloud MongoDB to store data.
 
 ## API Requests
 
-## POST
-### 1) Register: Takes in username, a unique email, password, and an optional image.
+## Authentication
+
+### Post
+
+#### 1) Register: Takes in username, a unique email, password, and an optional image.
 
 Route: localhost:3001/api/auth/register
 
-### 2) Login: Takes in email and password to check
+#### 2) Login: Takes in email and password to validate.
 
 Route: localhost:3001/api/auth/login
+
+## User
+
+### Put
+
+#### 1) Update User: Takes in id.
+
+Route: localhost:3001/api/users/:id
+
+### Delete
+
+#### 1) Delete user: Takes in id.
+
+Route: localhost:3001/api/uses/:id
+
+### Get
+
+#### 1) Get user information: Takes in id.
+
+Route: localhost:3001/api/users/:id
 
 ## Available Scripts
 
